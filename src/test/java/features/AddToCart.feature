@@ -1,5 +1,6 @@
 Feature: Add to cart
 
+  @test
   Scenario: Add one quantity from store
     Given I'm on the store page
     When I add a "Blue Shoes" to the cart

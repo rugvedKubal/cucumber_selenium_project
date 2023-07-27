@@ -1,4 +1,3 @@
-@test
 Feature: Place an order
 
   Scenario: using default payment option

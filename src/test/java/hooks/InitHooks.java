@@ -15,7 +15,7 @@ public class InitHooks {
 
     @Before
     public void setup() {
-        WebDriver driver = WebDriverFactory.getDriver(System.getProperty("browser", "chrome"));
+        WebDriver driver = WebDriverFactory.getDriver(System.getProperty("browser", "firefox"));
         context.setWebDriver(driver);
     }
 
